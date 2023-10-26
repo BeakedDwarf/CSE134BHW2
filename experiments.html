@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang = "en">
+
+<head>
+    <meta charset="utf-8" />
+    <title>Labs/Experiments</title>
+    <link href />
+</head>
+<body>
+    <main>
+        <h2>Navigation Bar</h2>
+        <nav>
+            <ol>
+                <li><a href="experiments.html">Labs/Experiments</a></li>
+                <li><a href="contact.html">Contact</a></li>
+                <li><a href="previous.html">Previous Works</a></li>
+                <li><a href="resume.html">Resume/Skills</a></li>
+            </ol>
+        </nav>
+
+        <section class="script">
+            <h2>
+                Example of Canvas and Script
+            </h2>
+            <!--This is an example of canvas and script together-->
+            <canvas id="myCanvas" width="200" height="100" style="border:1px solid #000000;"> </canvas>
+            <script>
+                var c = document.getElementById("myCanvas");
+                var ctx = c.getContext("2d");
+                ctx.moveTo(0, 0);
+                ctx.lineTo(200, 100);
+                ctx.stroke();
+            </script>
+        </section>
+
+        <!--Example of Images-->
+        <section class="img">
+            <h2> Image</h2>
+            <img src="images\pokemon_detective_pikachu_magnifying_glass.jpg">
+        </section>
+
+        <!--Example of Links-->
+        <section class="links">
+            <h2>Links</h2>
+            <ul>
+                <li><a href="https://www.polygon.com/entertainment/23560467/pokemon-detective-pikachu-2-release-update">Detective Pikachu</a></li>
+            </ul>
+        </section>
+
+        <!--Example of Button-->
+        <section id="button">
+            <h2>Button</h2>
+            <button type="button">Button</button>
+        </section>
+    </main>
+</body>
+</html>
